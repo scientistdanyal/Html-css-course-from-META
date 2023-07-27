@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(8, 8, 40);
+    height: 50px;
+}
+
+.box {
+    display: flex;
+    min-width: 50px;
+    justify-content: center;
+    align-items: center;
+    border: 0 solid black;
+}
+
+.box a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px; /* Add some padding to make the links clickable */
+}
+
+a:hover {
+    cursor: pointer;
+    color: blue;
+}
+
+/* Media query for collapsing the navbar on smaller screens */
+@media screen and (max-width: 768px) {
+    .container {
+        justify-content: flex-end;
+    }
+
+    .box {
+        min-width: auto;
+    }
+}
