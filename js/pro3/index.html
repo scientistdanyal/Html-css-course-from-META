@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     
+    <!DOCTYPE html>
+<html>
+<head>
+  <title>Hover to show date</title>
+</head>
+<body>
+  <button onmouseover="showDate(this)" onmouseout="showOriginalText(this)">Hit me</button>
+
+  <script>
+    function showDate(button) {
+      button.innerHTML = new Date().toL();
+    }
+
+    function showOriginalText(button) {
+      button.innerHTML = 'Hit me';
+    }
+  </script>
+</body>
+</html>
+
+
+
+</body>
+</html>
