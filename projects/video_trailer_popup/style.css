@@ -52,11 +52,32 @@ body {
     width: 100%;
     height: 100%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.active.trailer-container{
+    visibility: hidden;
 }
 .trailer-container video {
     position: relative;
     max-width: 900px;
     outline: none;
 }
+
+@media (max-width: 991px) {
+.trailer-container video {
+    max-width: 90%;
+}    
+}
+
+.close-icon {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    color: white;
+    cursor: pointer;
+}
+
+
