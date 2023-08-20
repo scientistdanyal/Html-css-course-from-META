@@ -1,3 +1,6 @@
 {
-    "livePreview.defaultPreviewPath": "/blurred background Popup/inded.html"
+    "livePreview.defaultPreviewPath": "/blurred background Popup/inded.html",
+    "cSpell.enableFiletypes": [
+        "html"
+    ]
 }
